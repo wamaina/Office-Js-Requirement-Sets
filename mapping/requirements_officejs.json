@@ -5729,6 +5729,11 @@
 							"code": "AttendeeCommandSurface",
 							"firstBuild": null,
 							"firstVersion": null
+						},
+						{
+							"code": "DetectedEntity",
+							"firstBuild": null,
+							"firstVersion": null
 						}
 					],
 					"supportedRequirementSets": [
@@ -5868,24 +5873,41 @@
 							"code": "MessageRead",
 							"firstBuild": null,
 							"firstVersion": null
+						}
+					],
+					"supportedRequirementSets": [
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						},
 						{
-							"code": "ComposeCommandSurface",
-							"firstBuild": null,
-							"firstVersion": null
+							"name": "Mailbox",
+							"apiVersion": "1.2",
+							"availability": "GA"
 						},
 						{
-							"code": "Modules",
-							"firstBuild": null,
-							"firstVersion": null
+							"name": "Mailbox",
+							"apiVersion": "1.3",
+							"availability": "GA"
 						},
 						{
-							"code": "AppointmentOrganizer",
-							"firstBuild": null,
-							"firstVersion": null
-						},
+							"name": "Mailbox",
+							"apiVersion": "1.4",
+							"availability": "GA"
+						}
+					],
+					"supportedMethods": []
+				},
+				{
+					"code": "Android",
+					"title": " Outlook for Android",
+					"supportedAppTypes": [
+						"MailApp"
+					],
+					"supportedExtensionPoints": [
 						{
-							"code": "AttendeeCommandSurface",
+							"code": "MessageRead",
 							"firstBuild": null,
 							"firstVersion": null
 						}
@@ -5943,6 +5965,16 @@
 						},
 						{
 							"code": "AttendeeCommandSurface",
+							"firstBuild": null,
+							"firstVersion": null
+						},
+						{
+							"code": "DetectedEntity",
+							"firstBuild": null,
+							"firstVersion": null
+						},
+						{
+							"code": "Events",
 							"firstBuild": null,
 							"firstVersion": null
 						}
